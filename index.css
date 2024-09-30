@@ -1,0 +1,73 @@
+body{
+    background-color:hsl(32, 91%, 91%);
+    font-family: Roboto ,Condensed ,sans-serif;
+}
+#block{
+    position: absolute;
+    display: flex;
+    width: 40%;
+    top: 10%;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 30%;
+    background-color: rgb(244, 223, 223);
+}
+img{
+    position:relative;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+#perfum{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    margin-left: 55%;
+}
+button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(137, 90%, 8%);
+    color: white;
+    border-radius: 5px;
+    width: 240px;
+    margin-top: 200%;
+    height: 40px;
+    font-size: 20px;
+}
+h6,p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+#prix{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+#prix1{
+    margin: -15px 0 0 -30px ;
+    font-size: 30px;
+    color: hsl(158, 85%, 21%);
+
+}
+#prix2{
+    font-size: 14px;
+    text-decoration-line:line-through;
+    color: hsl(228, 12%, 48%);
+}
+.attribution{
+    position: absolute;
+    margin-top: 600px;
+    right:100px;
+}
+button:hover{
+    background-color:hsl(158, 85%, 21%);
+    cursor: pointer;
+}
